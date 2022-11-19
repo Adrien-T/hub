@@ -37,10 +37,10 @@ It's time to run your server. Let's create a *run&#46;py* file that we will exec
 >
 > port = 8000
 >
-> def main():
+> def main():\
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;app.run(host="0.0.0.0", port=port)
 >
-> if \_\_name__ == "\_\_main__":
+> if \_\_name__ == "\_\_main__":\
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;main()
 
 You can now go in your terminal and execute run&#46;py to run your server :
@@ -58,16 +58,16 @@ Now, create a *templates* directory and a *index&#46;html* file in it. Fill this
 
 Create a */donut* route that displays a donut.html file when you go to http://0.0.0.0:8000/donut&#46;
 Here are the contents of the donut.html file :
-> \<!DOCTYPE html>
-> \<html>
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<head>
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<title>Donut\</title>
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\</head>
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<body>
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<h2>Donuts are amazing\</h2>
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<p>The donut of the day is : {{ Donut }}\</p>
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<img src="https://www.biggerbolderbaking.com/wp-content/uploads/2020/11/Homemade-Dunkin-Donuts-WS-Thumb-scaled.jpg" alt="">
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\</body>
+> \<!DOCTYPE html>\
+> \<html>\
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<head>\
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<title>Donut\</title>\
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\</head>\
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<body>\
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<h2>Donuts are amazing\</h2>\
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<p>The donut of the day is : {{ Donut }}\</p>\
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<img src="https://www.biggerbolderbaking.com/wp-content/uploads/2020/11/Homemade-Dunkin-Donuts-WS-Thumb-scaled.jpg" alt="">\
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\</body>\
 > \</html>
 
 #### Using jinja
@@ -96,9 +96,9 @@ Create a */comments* route that displays comments one by one.
 
 But we need a way to add comments! Lets add a form to our */comments* route :
 
-> \<form action="" method="post">
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<input type="text" value="" placeholder="Comment" name="comment">
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<input type="submit" value="post comment">
+> \<form action="" method="post">\
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<input type="text" value="" placeholder="Comment" name="comment">\
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<input type="submit" value="post comment">\
 > \</form>
 
 This form will send a **POST** request to your */comments* route, retrieve it and add it to the database.
