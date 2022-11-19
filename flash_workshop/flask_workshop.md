@@ -26,10 +26,9 @@ Let's create our web app in a file we'll call *app&#46;py*. It's really easy, ju
 Routes are pages on your site that you can access. Let's create a *routes&#46;py* file to put our routes. Lets create the "/" route together :
 >from app import app
 >
-> @app.route("/")
-> def hello_world():
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-> return "\<p>Hello, World!\</p>"
+> @app.route("/")\
+> def hello_world():\
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return "\<p>Hello, World!\</p>"
 
 #### Run your server
 
