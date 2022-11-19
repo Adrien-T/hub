@@ -1,6 +1,7 @@
 # Create a Flask Web Server
-<br>
+
 #### What is Flask?
+
 Flask is a Python library used to create web servers.
 You can find the documentation [here](https://flask.palletsprojects.com/).
 <br>
