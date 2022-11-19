@@ -28,7 +28,8 @@ Routes are pages on your site that you can access. Let's create a *routes&#46;py
 >
 > @app.route("/")
 > def hello_world():
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return "\<p>Hello, World!\</p>"
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+> return "\<p>Hello, World!\</p>"
 
 #### Run your server
 
