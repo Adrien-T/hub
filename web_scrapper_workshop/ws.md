@@ -36,6 +36,8 @@ Wow, we got the website's contents, but it's very chaotic.
 
 ### Step 3: Time to scrape
 
-Alright, well we have a bunch of data but we want to organise it, it's up to you to store all te book titles and prices in an organised way.
+Alright, well we have a bunch of data but we want to organise it, it's up to you to store all te book titles, ratings, and prices in an organised way.
 
 To help you, there are libraries you can use like **BeautifulSoup**.
+
+HINT: If you look in the html maybe the classes can help you.
