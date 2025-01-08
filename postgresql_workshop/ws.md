@@ -80,3 +80,5 @@ Create a request that gives you all people that have a "b" in their name.
 ### Step 10: Foreign key
 
 Make a new table called "hats" with a color which is a string of characters and a person which is linked to the people table. To do this, there are foreign keys, what are they?
+
+Are you done? Too easy for you? Choose your favourite programming language and make a script that connects to the database and creates a person.
