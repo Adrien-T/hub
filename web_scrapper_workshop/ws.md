@@ -41,3 +41,9 @@ Alright, well we have a bunch of data but we want to organise it, it's up to you
 To help you, there are libraries you can use like **BeautifulSoup**.
 
 HINT: If you look in the html maybe the classes can help you.
+
+### Step 4: Store your data
+
+After running a scraper, you want to store your data somehow. You could put it in a database, or create a CSV file which is what we will do.
+
+Python has a library called **csv** that allows you to easily put well organised data in a CSV file. Now it's up to you to generate this file with a column for the names, one for the prices, and one for the ratings of each book.
