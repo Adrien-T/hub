@@ -49,34 +49,34 @@ If you are using docker, you need to run the following command to enter the imag
 
 Now it's up to you to figure out how to create a table.
 
-Create a table called "user" which has a name column that takes a string of characters and an age column that takes an  integer.
+Create a table called "people" which has a name column that takes a string of characters and an age column that takes an  integer.
 
-### Step 5: Create a user
+### Step 5: Create a person
 
-Now that you created a user table, it's time to create a user! Create a user by giving him a name and an age
+Now that you created a people table, it's time to create a person! Create a user by giving him a name and an age.
 
 ### Step 6: Retrieve your user
 
 Time to see if the user is stored properly, now you need to find a way to retrieve him.
 
-Try creating more users and retrieving them all.
+Try creating more people and retrieving them all.
 
-### Step 7: Edit a user
+### Step 7: Edit a person
 
-Try changing the age of one of your users and retieving it.
+Try changing the age of one of the people and retieving it.
 
-### Step 8: Delete user
+### Step 8: Delete a  person
 
-Delete one of your users.
+Delete one of your people.
 
 And that's the basics of Postgres, now we can try doing some more advanced things.
 
 ### Step 9: Filter
 
-Create a request that gives you all the users that are older that are 20 years old.
+Create a request that gives you all the people that are 20 years old.
 
-Create a request that gives you all users that have a "b" in their name.
+Create a request that gives you all people that have a "b" in their name.
 
 ### Step 10: Foreign key
 
-Make a new table called "Hat" with a color which is a string of characters and a user which is linked to the user table. Do do this, there are foreign keys, what are they?
+Make a new table called "hats" with a color which is a string of characters and a person which is linked to the people table. To do this, there are foreign keys, what are they?
