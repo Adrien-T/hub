@@ -2,11 +2,19 @@
 
 ### Step 1: Build the docker image locally
 
+In the **docker_image** directory you will find a dockerfile and an src folder that contains an index.html file, this is the code for the webserver we want to deploy.
+
 > docker build .
+
+If you want to try running it locally, just run
+
+> docker run -p 8000:80 image_name
+
+replacing image name with the name of your image and you can visit it in your web browser at **http://0.0.0.0:8000/**
 
 ### Step 2: Push it on a new github repository
 
-Create a new repository on github and push your project there.
+Create a new repository on github and push the project there. Make sure to push the dockerfile and the src directory with the index.html file in it.
 
 ### Step 3: Time for Actions
 
