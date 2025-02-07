@@ -38,7 +38,7 @@ Wow, we got the website's contents, but it's very chaotic.
 
 Alright, well we have a bunch of data but we want to organise it, it's up to you to store all te book titles, ratings, and prices in an organised way.
 
-To help you, there are libraries you can use like **BeautifulSoup**.
+To help you, there are libraries you can use like **BeautifulSoup**. I'd recommend trying to find the info without any libraries at first.
 
 HINT: If you look in the html maybe the classes can help you.
 
